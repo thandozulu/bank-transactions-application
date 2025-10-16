@@ -35,7 +35,6 @@ public class Account {
     private BigDecimal balance;
 
     @NotNull
-    @Enumerated(EnumType.STRING)
     private Currency currency;
 
 }

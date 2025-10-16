@@ -39,7 +39,6 @@ public class Transaction {
     private BigDecimal amount;
 
     @NotNull
-    @Enumerated(EnumType.STRING)
     private Currency currency;
 
     @NotNull
