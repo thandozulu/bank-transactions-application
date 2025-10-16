@@ -23,7 +23,7 @@ public class Account {
 
     @NotBlank
     @Column(nullable = false)
-    private String accountHolder;
+    private String accountHolderName;
 
     @NotNull
     @Enumerated(EnumType.STRING)
